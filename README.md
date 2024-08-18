@@ -1,5 +1,7 @@
 # DLProject
 
+Authors: Lahav Barak & Gali Eytan
+
 * [Introduction](#introduction)
 * [How to Use](#how-to-use)
 * [Results](#results)
