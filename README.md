@@ -22,7 +22,7 @@ This project uses the Encoder-Decoder system as the generator for the GAN, and a
    '''
    git clone https://github.com/LahavBarak/DLProject
    '''
-   or download //NOTEBOOK_NAME//.ipynb directly
+   or download DeepProject.ipynb directly
 2. run notebook cell-by-cell
 .00
 
