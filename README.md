@@ -32,7 +32,7 @@ The training routine used is special and designed specifically for this architec
 3. run notebook cell-by-cell or download trained models and plot their performence
    There are cells used to load and plot the model's performances in the end of the Python file.
    Note that inside the "plot_latent_with_eval" function there are various options for models used to check data separability by the accuracy of different classifiers like Knn, logistic regression, SVM, etc, and also two seperability indexes to choose from.
-.00
+
 
 
 
@@ -40,5 +40,6 @@ The training routine used is special and designed specifically for this architec
 The final model is 'vaeTog15d4e40cb1.pkl'. It yields the following latent space and reconstruction:
 ![image](https://github.com/user-attachments/assets/0f446cfa-9c71-4808-92cf-352f0d55371d)
 ![image](https://github.com/user-attachments/assets/643e4889-b3bf-4e1e-bb5f-dc882ca8adda)
+
 With Davis Bouldin index of 2.2 and Knn classifier accuracy of 0.7 which is much better than the original naive VAE model.
 More models can be viewed in the code. The training routines are different for each model and in the code are the default routines.
