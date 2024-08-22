@@ -27,10 +27,15 @@ The training routine used is special and designed specifically for this architec
    git clone https://github.com/LahavBarak/DLProject
    ```
    or download DeepProject.ipynb directly
+   
    make sure to pip install all libraries and (optionally) the trained models in the same directory as the ipynb file.
+   
    To train the discriminator alone, fake data is needed, it can be found in the pre-generated library inside the data section.
+   
 3. run notebook cell-by-cell or download trained models and plot their performence
+   
    There are cells used to load and plot the model's performances in the end of the Python file.
+   
    Note that inside the "plot_latent_with_eval" function there are various options for models used to check data separability by the accuracy of different classifiers like Knn, logistic regression, SVM, etc, and also two seperability indexes to choose from.
 
 
